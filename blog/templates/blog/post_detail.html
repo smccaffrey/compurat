@@ -1,0 +1,16 @@
+<h4>hello</h4>
+
+<body>
+	<h1>{{ post.title }}</h1>
+
+	{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+	<ul>
+		<li>Author: {{ post.author }} </li>
+		<li>Slug: {{ post.slug }}</li>
+		<li>Content: {{ post.content }}</li>
+		<li>Created On: {{ post.created_on }}</li>
+	</ul>
+
+</body>
+
