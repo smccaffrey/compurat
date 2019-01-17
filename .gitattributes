@@ -2,6 +2,7 @@
 *.html text linguist-language=Python
 *.php  text linguist-language=Python
 *.css  text linguist-language=Python
+*.scss  text linguist-language=Python
 *.js   text linguist-language=Python
 *.txt  text linguist-language=Python
 *.md   text linguist-language=Python
